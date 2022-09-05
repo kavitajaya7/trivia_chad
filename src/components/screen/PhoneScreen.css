@@ -1,0 +1,20 @@
+.pscreen {
+    width: 25vw;
+    min-width: 270px;
+    height: 95vh;
+    min-height: 550px;
+
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+        ),
+        url("../../assets/backgrounds/back_five.jpg");
+    background-size: cover;
+
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

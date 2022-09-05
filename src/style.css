@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lucy Rounded";
+    src: url("assets/fonts/Lucy_Rounded.otf");
+    font-weight: 400 500;
+}
+
+@font-face {
+    font-family: "Bunderan";
+    src: url("assets/fonts/Bunderan.otf");
+    font-weight: 400 500;
+}
+
+@font-face {
+    font-family: "Bunderan";
+    src: url("assets/fonts/Bunderan\ Bold.otf");
+    font-weight: 600 800;
+}
+
+body {
+    font-family: "Lucy Rounded", Times;
+}

@@ -1,0 +1,44 @@
+.btn-huge {
+    width: 160px;
+    height: 50px;
+
+    display: inline-block;
+    position: relative;
+
+    color: #fff;
+    background-color: #f5994f;
+    border-radius: 40px;
+    border: none;
+
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+
+    cursor: pointer;
+}
+
+.btn-huge p {
+    position: relative;
+}
+
+.btn-huge::before {
+    content: "";
+    display: inline;
+
+    width: 110%;
+    height: 120%;
+
+    position: absolute;
+    left: -5.8%;
+    top: -15%;
+
+    border: 2px solid #f5994f;
+    border-radius: 40px;
+
+    transition: background-color 0.2s ease-out;
+}
+
+.btn-huge:hover::before {
+    background-color: #f5994f;
+}
